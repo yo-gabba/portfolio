@@ -29,7 +29,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 4rem 12% 4rem;
+    padding: 2rem 12% 2rem;
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -230,8 +230,9 @@ h1 span {
     100%{
         content: "Software Engineer.";
     }
-    
 }
+
+
 @keyframes typing {
     10%,
     15%,
@@ -278,7 +279,7 @@ h1 span {
     justify-content: center;
     margin-top: 3rem;
 }
-.about-content h1{
+.about-content h2{
     font-size: 4rem;
 }
 .about-content span{
@@ -362,7 +363,9 @@ h1 span {
     height: 100%;
 }
 
+
 /* ----------------Education Section---------------- */
+/*
 .education {
     padding: 100px 15px;
     background-color: var(--second-bg-color);
@@ -442,6 +445,7 @@ h1 span {
     font-weight: 300;
     line-height: 22px;
 }
+*/
 /* ----------------Scrollbarr---------------- */
 ::-webkit-scrollbar{
     width: 15px
@@ -454,6 +458,7 @@ h1 span {
     width: 50px
 }
 /* ----------------Services Section---------------- */
+/*
 .services {
     background-color: var(--bg-color);
     color: black;
@@ -503,7 +508,9 @@ h1 span {
     line-height: 1.7;
     margin: auto;
 }
+*/
 /* ----------------Testimonials Section---------------- */
+/*
 .testimonials{
     background: var(--second-bg-color);
 }
@@ -561,6 +568,7 @@ h1 span {
     color: gold;
     font-size: 2rem;
 }
+ */
 /* ----------------Contact Section---------------- */
 .contact{
     background-color: var(--bg-color);
@@ -631,7 +639,7 @@ h1 span {
 .footer ul{
     margin-top: 0;
     padding: 0;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
@@ -703,12 +711,13 @@ h1 span {
         position: absolute;
         top: 100%;
         right: 0;
-        width: 50%;
+        width: 100%;
         padding: 1rem 3%;
         background: rgba(0, 0, 0, 0.8);
         backdrop-filter: blur(20px);
-        border-bottom-left-radius: 2rem;
+        border-radius: 0 0 2rem 2rem;
         border-left: 2px solid var(--main-color);
+        border-right: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
         display: none;
     }
@@ -720,6 +729,7 @@ h1 span {
         font-size: 2rem;
         margin: 3rem 0;
         color: white;
+        text-align: center;
     }
     .home{
         flex-direction: column-reverse;
